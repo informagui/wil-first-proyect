@@ -1,0 +1,51 @@
+
+body{
+    background-image: url("jescarga.jfif");
+    background-size: cover;
+    height: 100vh;
+}
+.todo {
+    position: absolute;
+    margin: auto;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+h1{
+    font-size: 550%;
+    background-color: rgb(249, 82, 255);
+    color: white;
+}
+
+button{
+    font-size: 50px;
+    background-color: white;
+    border-radius: 5px;
+    border: none;
+    font-family: 'Courier New', Courier, monospace;
+}
+.save:hover {
+    background-color: rgb(231, 231, 231) !important;
+    box-shadow: none !important;
+    font-size: 50px;
+}
+
+button:hover {
+    font-size: 55px;
+    box-shadow:0 4px 8px 0 rgba(249, 82, 255, 0.555), 0 6px 20px 0 rgba(249, 82, 255, 0.555);
+}
+
+#guardados {
+    font-size:35px;
+}
+
+#count-el{
+    box-sizing: content-box;
+    font-size: 80px;
+    color: rgb(249, 82, 255);
+}
+h3{
+    background-color: antiquewhite;
+    font-family: Garamond, serif;
+    font-size: 300%;
+}
